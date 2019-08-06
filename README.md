@@ -2,8 +2,8 @@
 ts实现一个简易的vue-router
 
 ### api
-* tsRouter.push：router.push({ path: 'home' })
-* tsRouter.replace(...)
+* tsRouter.push：router.push({ path: '/home' })
+* tsRouter.replace({ name: 'home' })
 * tsRouter.go(number)
 
 ### demo 
