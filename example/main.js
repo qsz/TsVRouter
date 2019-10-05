@@ -9,7 +9,7 @@ const Bar = { template: '<div>bar</div>' }
 // 注册路由
 Vue.use(TsVRouter)
 const tsRouter = new TsVRouter({
-  mode: 'history',
+  mode: 'html5',
   routes: [
     {path: '/foo', component: Foo, name: 'foo'},
     {path: '/bar', component: Bar, name: 'bar'}
